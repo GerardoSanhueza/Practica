@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3F69A33F-F248-1683-DB53-EF59A6A4ADAA" containerWithKeyObject="58E82DA0-B6BE-1C04-47F4-F5772F52A737" localFKIndex="24FA4B82-18B8-622B-587C-BBA0B23668E6" name="Dosis_Tipo_Vacuna_FK">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:39:34 UTC</createdTime>
+<generatorID>609B719E-D8A1-3B8D-3C33-D5D315B1320D</generatorID>
+<ownerDesignName>Vacunas</ownerDesignName>
+<referredTableLongName>Tipo_Vacuna</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AABC1BF7-85A7-E1F5-B7DC-785124FA9CA1</referredTableID>
+<keyObject>EC433B89-19D8-3A70-CD18-A9C7ABD196CD</keyObject>
+<referredKeyID>EC433B89-19D8-3A70-CD18-A9C7ABD196CD</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

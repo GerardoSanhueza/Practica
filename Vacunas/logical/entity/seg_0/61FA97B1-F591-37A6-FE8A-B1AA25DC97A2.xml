@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="61FA97B1-F591-37A6-FE8A-B1AA25DC97A2" name="Centro_Vacunacion">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:03:35 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<engineerTo>
+<item key="D20877C1-B82E-E7CB-97CD-8C930DB102FB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_centro" id="C9370081-CEAB-560C-B310-EA8283052BD0">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:18:41 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<engineerTo>
+<item key="D20877C1-B82E-E7CB-97CD-8C930DB102FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="0173FA59-25CE-A8BE-79AB-DA8C0C59DED0">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:19:03 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<engineerTo>
+<item key="D20877C1-B82E-E7CB-97CD-8C930DB102FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A77C626-99DA-4311-E468-78116D437A72" name="Centro_Vacunacion PK">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:19:03 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<engineerTo>
+<item key="D20877C1-B82E-E7CB-97CD-8C930DB102FB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C9370081-CEAB-560C-B310-EA8283052BD0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

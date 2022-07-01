@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="58E82DA0-B6BE-1C04-47F4-F5772F52A737" name="Dosis">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:39:34 UTC</createdTime>
+<generatorID>2DACF7AE-B58B-E0A2-A18B-1A299EE4D14A</generatorID>
+<ownerDesignName>Vacunas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_dosis" id="45082294-BF7A-FC07-6FAF-74B2A3D6EFD7">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:39:34 UTC</createdTime>
+<generatorID>07E2C45D-AF7D-A3EB-5EB5-8B2E46A98AAA</generatorID>
+<ownerDesignName>Vacunas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vacuna_Id_vacuna" id="98DD3F7C-97CD-DA07-2148-5C8283400B0E">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:39:34 UTC</createdTime>
+<generatorID>E2480831-FF80-B248-8A63-C5CBB943675C</generatorID>
+<ownerDesignName>Vacunas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F832FA0A-CD45-63F5-32A0-6C4136CC4F7E" referredColumn="718F841C-59B7-FD08-AA43-576ADD4C7E97"/>
+</associations>
+</Column>
+<Column name="Persona_Rut" id="96C3957C-A3E4-0EEE-88ED-394A1E17B066">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:39:34 UTC</createdTime>
+<generatorID>A603E5EA-E118-D13D-0048-46CB31FA2CD9</generatorID>
+<ownerDesignName>Vacunas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3389B505-DBD9-0A4C-D851-C0E7FABF00B4" referredColumn="05505A9C-ED23-40AD-BA20-34208712F945"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0A57CB6-07B5-0C08-6FFF-DF333B008E9F" name="Dosis_PK">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:39:34 UTC</createdTime>
+<generatorID>14203648-EC08-3397-86C2-113ABB0BE5F1</generatorID>
+<ownerDesignName>Vacunas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45082294-BF7A-FC07-6FAF-74B2A3D6EFD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB7C640F-50D7-00DD-B649-8D6CBFCB5F86" name="Dosis_Persona_FK">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:39:34 UTC</createdTime>
+<generatorID>4FF16EA7-96E4-AED1-C61B-F34FF52DD34F</generatorID>
+<ownerDesignName>Vacunas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96C3957C-A3E4-0EEE-88ED-394A1E17B066"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24FA4B82-18B8-622B-587C-BBA0B23668E6" name="Dosis_Tipo_Vacuna_FK">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:39:34 UTC</createdTime>
+<generatorID>609B719E-D8A1-3B8D-3C33-D5D315B1320D</generatorID>
+<ownerDesignName>Vacunas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="A5AEDCFA-5602-5EE3-D7BB-431C32B0D595" name="Dosis_Vacuna_FK">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:39:34 UTC</createdTime>
+<generatorID>6EA193BE-EDD3-2B09-5D9F-99449B1AFA40</generatorID>
+<ownerDesignName>Vacunas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98DD3F7C-97CD-DA07-2148-5C8283400B0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

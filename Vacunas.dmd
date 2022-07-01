@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Vacunas" id="4ADB7151-90EC-656E-107B-24F917D133C6" version="3.5">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 00:52:36 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4ADB7151-90EC-656E-107B-24F917D133C6</designId>
+</OSDM_Design>

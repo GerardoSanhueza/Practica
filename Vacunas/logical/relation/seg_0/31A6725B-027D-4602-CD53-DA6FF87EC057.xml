@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vacunasTipo" directorySegmentName="seg_0" id="31A6725B-027D-4602-CD53-DA6FF87EC057">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:24:25 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<engineerTo>
+<item key="D20877C1-B82E-E7CB-97CD-8C930DB102FB" value="true"/>
+</engineerTo>
+<sourcePk>93BF13FF-E65B-6E1A-AEAF-DBB0B332BA7D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>426B64B0-55DB-382A-1B19-C50EAB9C313D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E3E9447C-FD9A-9FB9-98DB-B3668AC1E051</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

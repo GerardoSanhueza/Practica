@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.InheritanceRelation" name="Hierarchy_1" directorySegmentName="seg_0" id="7721770C-0DCD-6A11-79E3-B3D42C57957D">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:36:06 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<engineerTo>
+<item key="D20877C1-B82E-E7CB-97CD-8C930DB102FB" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>Super Type</nameOnSource>
+<nameOnTarget>Sub Type</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceEntity>61FA97B1-F591-37A6-FE8A-B1AA25DC97A2</sourceEntity>
+<targetEntity>E6A2B080-D548-4F9D-774C-EA16E3E585E3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AABC1BF7-85A7-E1F5-B7DC-785124FA9CA1" name="Tipo_Vacuna">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:39:34 UTC</createdTime>
+<generatorID>E3E9447C-FD9A-9FB9-98DB-B3668AC1E051</generatorID>
+<ownerDesignName>Vacunas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nombre" id="CB04B1BB-D55F-90FA-A38D-2A9463F77B30">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:39:34 UTC</createdTime>
+<generatorID>90487718-E35B-0695-09C5-E7BC77E737E4</generatorID>
+<ownerDesignName>Vacunas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vacuna_Id_vacuna" id="97A8E498-6F95-361B-7B17-8CB08F6F62E2">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:39:34 UTC</createdTime>
+<generatorID>484384C0-4FA7-C0DD-956D-594DE2446975</generatorID>
+<ownerDesignName>Vacunas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8720830E-97D0-675E-FE1E-0DEE78E2A8DD" referredColumn="718F841C-59B7-FD08-AA43-576ADD4C7E97"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC433B89-19D8-3A70-CD18-A9C7ABD196CD" name="Tipo_Vacuna_PK">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:39:34 UTC</createdTime>
+<generatorID>B900DDB9-AC59-C0AA-E6BA-C0A313C9608E</generatorID>
+<ownerDesignName>Vacunas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="708F6E53-95D2-1E7A-A633-EADEF9555388" name="Tipo_Vacuna_Vacuna_FK">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:39:34 UTC</createdTime>
+<generatorID>31A6725B-027D-4602-CD53-DA6FF87EC057</generatorID>
+<ownerDesignName>Vacunas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97A8E498-6F95-361B-7B17-8CB08F6F62E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

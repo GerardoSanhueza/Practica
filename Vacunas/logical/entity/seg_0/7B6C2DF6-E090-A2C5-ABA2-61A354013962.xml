@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7B6C2DF6-E090-A2C5-ABA2-61A354013962" name="Persona">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 00:59:44 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<engineerTo>
+<item key="D20877C1-B82E-E7CB-97CD-8C930DB102FB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rut" id="97D86EC2-CE34-72FB-0090-8EC5177259B7">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:06:22 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<engineerTo>
+<item key="D20877C1-B82E-E7CB-97CD-8C930DB102FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="A1D94DDE-D629-F60E-56EF-A59563DFF9BC">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:04:04 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<engineerTo>
+<item key="D20877C1-B82E-E7CB-97CD-8C930DB102FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A_paterno" id="47F6ABCD-3CB2-0D1B-288F-330E91BC158C">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:05:28 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<engineerTo>
+<item key="D20877C1-B82E-E7CB-97CD-8C930DB102FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="A_materno" id="32AD8327-790A-2FB3-8F95-B4FA1BA2B1A9">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:06:57 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<engineerTo>
+<item key="D20877C1-B82E-E7CB-97CD-8C930DB102FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="DEF4A58B-6B3E-B09F-E1DC-F035005FFE76">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:07:23 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<engineerTo>
+<item key="D20877C1-B82E-E7CB-97CD-8C930DB102FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Edad" id="CC7B3923-62C6-323B-A6FE-E22A3081E244">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:32:12 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<engineerTo>
+<item key="D20877C1-B82E-E7CB-97CD-8C930DB102FB" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F7526662-3509-D1BD-5CA8-7A308876E103" name="Persona PK">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:06:52 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<engineerTo>
+<item key="D20877C1-B82E-E7CB-97CD-8C930DB102FB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>97D86EC2-CE34-72FB-0090-8EC5177259B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

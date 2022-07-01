@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="4FF16EA7-96E4-AED1-C61B-F34FF52DD34F">
+<createdBy>Gerardo</createdBy>
+<createdTime>2022-07-01 01:26:38 UTC</createdTime>
+<ownerDesignName>Vacunas</ownerDesignName>
+<engineerTo>
+<item key="D20877C1-B82E-E7CB-97CD-8C930DB102FB" value="true"/>
+</engineerTo>
+<sourcePk>F7526662-3509-D1BD-5CA8-7A308876E103</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7B6C2DF6-E090-A2C5-ABA2-61A354013962</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2DACF7AE-B58B-E0A2-A18B-1A299EE4D14A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
